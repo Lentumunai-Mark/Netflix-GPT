@@ -1,11 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Body from "./components/Body";
 
-function App(){
+const App = () => {
     return (
-        <div className="text-3xl font-bold text-green-800">
-            hello world
-        </div>
+        < Body/>
     );
 }
 
